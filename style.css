@@ -1,0 +1,87 @@
+/*
+Theme Name: Kazu
+Github Theme URI: https://github.com/thgaskell/wp-kazu-theme.git
+Description: WordPress port from http://www2.hawaii.edu/~sugihara/. A simple Mac OS 10.0 Cheetah theme.
+Author: Tony Gaskell
+Author URI: http://tonygaskell.com/
+Version: v1.0.0
+Tags: white, grey, mac os x, cheetah
+*/
+
+html {
+    background: #fff;
+}
+
+body {
+    border-left: 1px solid #616161;
+    border-right: 1px solid #616161;
+    border-top: 1px solid #616161;
+    -moz-box-shadow:    0px 5px 13px rgba(100, 100, 100, 0.75);
+    -webkit-box-shadow: 0px 5px 13px rgba(100, 100, 100, 0.75);
+    box-shadow:         0px 5px 13px rgba(100, 100, 100, 0.75);
+    font-family: times, serif;
+    margin: 13px auto;
+    position: relative;
+    width: 574px;
+}
+
+#header hgroup {
+    background-image: url('images/window/uc.gif');
+    border-bottom: 1px solid black;
+}
+
+#header nav {
+    background-image: url('images/window/c.gif');
+    height: 56px;
+    width: 100%;
+}
+
+#navigation .menu {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#navigation .menu li {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+body, #header {
+    border-radius: 5px 5px 0px 0px; 
+    -moz-border-radius: 5px 5px 0px 0px; 
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #616161;
+}
+
+#header h1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px 0;
+    text-align: center;
+}
+
+article {
+    padding: 10px 80px;
+}
+
+article p {
+    font-size: 16px;
+}
+
+#footer {
+    background-image: url('images/powered-by.gif');
+    background-repeat:no-repeat;
+    background-position:center; 
+    height: 36px;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
